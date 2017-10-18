@@ -8,6 +8,10 @@ header {
   font-weight: bold;
   color: MediumAquamarine;
   border-bottom: 1px solid black;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  top: 0;
 }
 
 .logo {
@@ -32,4 +36,61 @@ nav span {
 
 header a {
   color: black;
+}
+
+.content {
+  display: flex;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+}
+
+.column-large {
+  display: flex;
+  width: 630px;
+  background-color: lightblue;
+  margin-right: 32px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.column-medium {
+  width: 300px;
+  background-color: mediumaquamarine;
+  margin-right: 32px;
+}
+
+.column-small {
+  width: 240px;
+  background-color: lightgray;
+  margin-right: 32px;
+}
+
+.narrative {
+    font-family: Georgia;
+    font-size: 17px;
+    color: black;
+}
+
+.image.content {
+  background-image: url(../images/img-story-main.png);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  margin-top: 15px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+.image.content2 {
+  background-image: url(../images/img-story-2.png);
+}
+
+.story{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
 }
